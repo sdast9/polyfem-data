@@ -5,6 +5,11 @@
             "skip_frame": 1
         }
     },
+    "solver": {
+        "contact": {
+            "friction_iterations": 1
+        }
+    },
     "tests": {
         "err_h1": 0.004936123096838065,
         "err_h1_semi": 0.0013129920252841353,

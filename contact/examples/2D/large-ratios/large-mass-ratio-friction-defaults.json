@@ -1,0 +1,19 @@
+{
+    "common": "large-mass-ratio.json",
+    "patch": [
+        {
+            "op": "remove",
+            "path": "/solver/contact/friction_iterations"
+        }
+    ],
+    "tests": {
+        "err_h1": 0.2501306299601777,
+        "err_h1_semi": 0.14544130541023184,
+        "err_l2": 0.20349977573659148,
+        "err_linf": 0.2247405358516794,
+        "err_linf_grad": 0.2247405358516794,
+        "err_lp": 0.2100766266232714,
+        "margin": 1e-05,
+        "time_steps": "all"
+    }
+}

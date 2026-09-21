@@ -80,6 +80,11 @@
             "type": "NeoHookean"
         }
     ],
+    "solver": {
+        "contact": {
+            "friction_iterations": 1
+        }
+    },
     "tests": {
         "err_h1": 0.25144660239320593,
         "err_h1_semi": 0.1463522823796857,

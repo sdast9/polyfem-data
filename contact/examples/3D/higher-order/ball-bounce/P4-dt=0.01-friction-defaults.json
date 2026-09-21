@@ -1,0 +1,19 @@
+{
+    "common": "P4-dt=0.01.json",
+    "patch": [
+        {
+            "op": "remove",
+            "path": "/solver/contact/friction_iterations"
+        }
+    ],
+    "tests": {
+        "err_h1": 0.00480604001599997,
+        "err_h1_semi": 0.0007342731213253285,
+        "err_l2": 0.0047496172075960135,
+        "err_linf": 0.056942485078309686,
+        "err_linf_grad": 0.056942485078309686,
+        "err_lp": 0.030329615062594358,
+        "margin": 1e-05,
+        "time_steps": 20
+    }
+}
