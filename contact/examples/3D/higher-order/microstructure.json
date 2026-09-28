@@ -77,6 +77,15 @@
             "type": "NeoHookean"
         }
     ],
+    "solver": {
+        "contact": {
+            "CCD": {
+                "resource_limits": {
+                    "max_candidate_emissions": 70000000
+                }
+            }
+        }
+    },
     "space": {
         "discr_order": 2
     },
