@@ -83,7 +83,8 @@
                 "resource_limits": {
                     "max_candidate_emissions": 70000000
                 }
-            }
+            },
+            "friction_iterations": 1
         }
     },
     "space": {

@@ -1,0 +1,12 @@
+{
+    "common": "microstructure.json",
+    "patch": [
+        {
+            "op": "remove",
+            "path": "/solver/contact/friction_iterations"
+        }
+    ],
+    "tests": {
+        "time_steps": 1
+    }
+}
